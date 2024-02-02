@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Gabarito } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
 import "./globals.css";
 
 const gabarito = Gabarito({ subsets: ["latin"] });
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={`${gabarito.className} relative`}>
         {children}
         <p className="absolute bottom-2 right-2 text-sm text-white" >Built by <a href="https://www.olliecookie.com" className="underline" target="_blank">Ollie Cook</a>&#x1f36a;</p>
+        <Analytics />
       </body>
     </html>
   );
