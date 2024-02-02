@@ -1,0 +1,19 @@
+.increase-button {
+  box-shadow: 20px 20px 50px #08a3b4,
+              -30px -30px 60px #44c6ee;
+          
+}
+
+.increase-button:hover {
+    box-shadow: inset 6px 6px 5px 0 rgba(0, 0, 0, 0.2),
+                inset -6px -6px 5px 0 rgba(255, 255, 255, 0.2);
+}
+
+.decrease-button {
+  box-shadow: 20px 20px 50px #08a3b4
+}
+
+.decrease-button:hover {
+    box-shadow: inset 6px 6px 5px 0 rgba(0, 0, 0, 0.2),
+                inset -6px -6px 5px 0 rgba(255, 255, 255, 0.2);
+}
