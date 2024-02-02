@@ -59,7 +59,7 @@ export default function RunCounter() {
       {
         count > 0 &&
         <button 
-          className=" decrease-button p-2 my-6 z-20 text-lg rounded-lg bg-gradient-to-br from-red-400 to-red-500 text-white font-semibold"
+          className=" decrease-button p-2 mt-6 mb-20 z-20 text-lg rounded-lg bg-gradient-to-br from-red-400 to-red-500 text-white font-semibold"
           onClick={() => updateCount(-1)}
         >
           I lied, remove a run :(
